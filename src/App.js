@@ -3,6 +3,8 @@ import Hero from './components/Hero'
 import Portfolio from './components/Portfolio'
 import Feature from './components/Feature'
 import Skills from './components/Skills'
+import About from './components/About'
+import Footer from './components/Footer'
 
 function App() {
   return (
@@ -12,6 +14,8 @@ function App() {
       <Feature/>
       <Skills/>
       <Portfolio/>
+      <About/>
+      <Footer/>
     </div>
   );
 }

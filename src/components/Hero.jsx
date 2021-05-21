@@ -5,8 +5,9 @@ function Hero() {
         <div className='flex flex-col md:flex-row h-screen overflow-hidden'>
             <div className='hero-text pt-32 w-1/2 pl-32 flex items-center'>
                 <div className="flex-col ">
+                    <h4 className='text-2xl text-indigo-800'>Hi,</h4>
                     <h1 className='text-7xl pb-5'>I am Khalil Rohani</h1>
-                    <h3 className='text-3xl'>
+                    <h3 className='text-3xl text-indigo-600'>
                     <TypedReact text={['Web Developer', 'Front-end Developer', 'React Developer']}/>
                     </h3>
                     <div className='mt-5'>

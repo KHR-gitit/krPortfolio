@@ -31,14 +31,16 @@ let list = [
 function Portfolio() {
     const cards = list.map(e => <Card imgURL={e.imgURL} title={e.title} list={e.list} key={e.title}/>)
     return (
-        <section className='py-32 bg-gray-100'>
+        <section id='portfolio' className='pt-32 pb-12 bg-gray-200 w-full'>
             <h1 className='text-5xl text-center'>
                 Portfolio
             </h1>
             <div className="cardFolder flex flex-wrap mx-auto max-w-7xl">
             {cards}
             </div>
-            <button>TO portfolio</button>
+            <div className="flex justify-center pt-9">
+            <button className='uppercase bg-indigo-800 text-white p-6 rounded hover:bg-indigo-600'>See More</button>
+            </div>
         </section>
     )
 }

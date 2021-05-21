@@ -1,7 +1,7 @@
 import imgses from '../imgs/responsive-website.png'
 function Feature() {
     return (
-        <section className='flex py-32 items-center w-full justify-center'>
+        <section className='flex py-32 items-center w-full justify-center bg-gray-200'>
             <div className="flex w-2/5 2xl:w-1/3 justify-end">
                 <img className='pl-9' src={imgses} alt="" />
             </div>
